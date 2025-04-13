@@ -5,7 +5,8 @@ let nombres = [5, 1, 8, 3, 2]
 function triABulles(nombres) {
     for (let index = 0; index <= nombres.length; index++) {
         return triABulles(nombres);
-            
+        for(let index=0; index ){
+
         }
     }
 }
