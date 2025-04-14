@@ -3,11 +3,11 @@
 let nombres = [5, 1, 8, 3, 2]
 
 function triABulles(nombres) {
-    for (let index = 0; index <= nombres.length; index++) {
+    for (let i = 0; i <= nombres.length; i++) {
         return triABulles(nombres);
-        for(let index=0; index ){
+        // for(let j=0; j < 0 ){
 
-        }
+        // }
     }
 }
 
