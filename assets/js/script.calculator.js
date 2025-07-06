@@ -1,39 +1,36 @@
-// let firstNumber = prompt('Entrez le premier nombre :')
-// let secondNumber = prompt('Entrez le second nombre :')
-// let continuer = true;
+// verifier si le chiffre et entre 0 à 10
+// si c'est n'est pas le cas 
+// afficher au console "Erreur"
+// si le chiffre et entre 0 à 10 
+// afficher tout le chiffre qui est en dessous
 
-function operation() {
-    const menu = ("Choisissez l'operation = Addition : 1, Soustraction : 2, multilication : 3, division : 4, Quitter : 5")
+// let inNumber = a(prompt("Entrer le chiffre Ex: '01234567890'"))
+//     if (inNumber > 10 || inNumber < 0){
+
+//         console.log("Le nombre n'est pas entre 0 et 10");
+        
+//     }else{
+//         while (inNumber>= 0) {
+//             console.log(inNumber);
+//             inNumber--
+            
+//         }
+        
+//     }
+
+// demande a l'utilisateur entre un nombre jusqu'il trouve la bonne reponse
+let guess = 8
+let imaginer
+while (imaginer !== guess) {
     
-    while ([1,2,3,4,5,6]) {
-        console
-    }
+    imaginer = prompt('Entre votre nombre') * 1
+    if (imaginer < guess){
+        console.log('Plus');
+        
+    }else if(imaginer > guess){
+        console.log('Moins');
+        
+
+    };
+    console.log('Nice Congratulation');
 }
-
-
-
-// const addition = 1
-// const soustration = 2
-// const multiplication = 3
-// const division = 4
-// const exit = 5
-// const addOperation = operation.prompt('')
-
-// switch (operation) {
-//     case '1':
-//      '+';
-//     case '2':
-//      '-';
-//     case '3':
-//      '*';
-//     case '4':
-//      '/';
-//     case '5':
-//     console.log('quiter');
-    
-//     break
-//     default:
-//         continuer
-//         console.log('Résultat :', firstNumber, addOperation, secondNumber);
-// }
-
